@@ -1,0 +1,14 @@
+sudo apt update
+
+sudo apt install python3-pip
+
+sudo apt install python3.12-venv
+
+python3 -m venv stockpipeline_venv
+
+
+source venv/bin/activate
+
+pip install pymongo
+pip install requests
+pip install dotenv

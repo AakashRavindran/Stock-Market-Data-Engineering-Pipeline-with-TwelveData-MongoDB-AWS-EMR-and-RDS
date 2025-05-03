@@ -1,0 +1,10 @@
+credentials.py
+.vscode\settings.json
+Mongo\mongodb-atlas-config.env
+venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env

@@ -1,0 +1,23 @@
+CREATE DATABASE IF NOT EXISTS stocksDbGuvi;
+
+use stocksDbGuvi;
+
+CREATE TABLE IF NOT EXISTS stocksDbGuvi.stocks_30_mins 
+(
+symbol varchar(15) NOT NULL,
+half_hour_intervals datetime NOT NULL,
+first_open DECIMAL(15,10) NOT NULL,
+last_close DECIMAL(15,10) NOT NULL,
+max_high DECIMAL(15,10) NOT NULL,
+min_low DECIMAL(15,10) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stocksDbGuvi.stocks_each_hour
+(
+symbol varchar(15) NOT NULL,
+date_hour datetime NOT NULL,
+first_open DECIMAL(15,10) NOT NULL,
+last_close DECIMAL(15,10) NOT NULL,
+max_high DECIMAL(15,10) NOT NULL,
+min_low DECIMAL(15,10) NOT NULL
+)
