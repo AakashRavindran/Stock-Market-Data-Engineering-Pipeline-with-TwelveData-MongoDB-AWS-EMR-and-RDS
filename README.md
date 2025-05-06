@@ -4,7 +4,7 @@
 
 
 ## Problem Statement:
-Build a scalable and automated data pipeline that fetches stock price data every 5 minutes for companies like Apple, Google, Tesla, Microsoft, and Nvidia from the TwelveData API. The pipeline should store raw data in MongoDB, transform it into Parquet using PySpark on AWS EMR, aggregate it using AWS Glue, and store final data in RDS for analytics.
+Build a scalable and automated data pipeline that fetches past 20 days stock price data for every 5 minutes for companies like Apple, Google, Tesla, Microsoft, and Nvidia from the TwelveData API. The pipeline should store raw data in MongoDB, transform it into Parquet using PySpark on AWS EMR, aggregate it using AWS Glue, and store final data in RDS for analytics.
 
 ## Business Use Cases:
 - **Real-time stock trend monitoring** for financial analysts
