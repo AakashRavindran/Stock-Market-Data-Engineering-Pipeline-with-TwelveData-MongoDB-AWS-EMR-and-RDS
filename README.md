@@ -41,8 +41,6 @@ Build a scalable and automated data pipeline that fetches past 20 days stock pri
 - AWS Glue jobs summarize the data.
 - RDS holds the cleaned, aggregated output.
 
-## Architecture Diagram:
-*(Include an architecture diagram here if available)*
 
 ## Project Flow:
 1. **Data Ingestion**:
