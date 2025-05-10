@@ -43,7 +43,7 @@ SPARK_STEPS = [
         "HadoopJarStep": {
             "Jar": "command-runner.jar",
             "Args": [
-                "spark-submit", "--deploy-mode", "cluster", "s3://twelvedatastokcs/requirements/datapipeline.py"
+                "spark-submit", "--deploy-mode", "cluster", EMR_cluster_info["spark_app_s3"]
             ],
         },
     },
